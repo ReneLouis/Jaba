@@ -14,6 +14,7 @@ class Guess {
         ch = (char) System.in.read();   // Read a char entered by the user.
 
         if (ch == answer) System.out.print("Correct! Well played.");
+        else System.out.print("...Nope, worng later.");
 
     }
 }
